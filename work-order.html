@@ -4,20 +4,23 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="Ознакомьтесь с контактной информации компании «Палаццо» - производителя качественной мебели на заказ в Костроме." />
-  <meta id="meta_og_title" property="og:title" name="" content="Контактная информация компании | Палаццо" />
+    content="Предлагаем ознакомится с каталогом производимой продукции компанией «Палаццо». Большой ассортимент мебели и аксессуаров продукции не оставит вас равнодушным." />
+  <meta id="meta_og_title" property="og:title" name="" content="Каталог продукции | Палаццо" />
   <meta id="meta_og_image" property="og:image" name="" content="https://palazo.ru/themes/main/img/logo4.jpg" />
   <meta id="meta_og_site_name" property="og:site_name" name="" content="https://palazo.ru" />
   <meta id="meta_og_description" property="og:description" name=""
-    content="Ознакомьтесь с контактной информации компании «Палаццо» - производителя качественной мебели на заказ в Костроме." />
+    content="Предлагаем ознакомится с каталогом производимой продукции компанией «Палаццо». Большой ассортимент мебели и аксессуаров продукции не оставит вас равнодушным." />
   <meta id="og_type" property="og:type" name="" content="article" />
-  <meta id="meta_og_url" property="og:url" name="" content="https://palazo.ru/contacts" />
+  <meta id="meta_og_url" property="og:url" name="" content="https://palazo.ru/catalog" />
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <script src="/assets/cdfe517a/jquery.yiiactiveform.js"></script>
   <script src="/themes/main/js/jquery.BlackAndWhite.min.js"></script>
   <script src="/themes/main/js/jquery.countdown.min.js"></script>
   <script src="/themes/main/js/site.scripts.min.js?v4"></script>
   <script src="/themes/main/js/jquery.fancybox.min.js"></script>
-  <title>Полезные статьи | Палаццо</title>
+  <script src="/themes/main/js/owl.carousel.min.js"></script>
+  <script src="themes/main/js/common.js" defer charset="utf-8"></script>
+  <title>Порядок работы | Палаццо</title>
 
   <!--    <script>(window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-222639-8lkU';</script> -->
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -159,7 +162,7 @@
           </div>
 
           <div class="m-close">x</div>
-          <!-- <ul id="yw1">
+          <!-- <ul id="yw0">
  <li><a href="/">Главная</a></li>
  <li><span>Покупателю</span>
  <ul>
@@ -172,7 +175,7 @@
  <li><a href="/poleznye-stati">Полезные статьи</a></li>
  </ul>
  </li>
- <li><a href="/catalog">Каталог</a>
+ <li class="active"><span>Каталог</span>
  <ul>
  <li><a href="/kuhni-iz-massiva-rossii">Кухни из массива России</a></li>
  <li><a href="/kuhni-kraska">Кухни крашенный МДФ</a></li>
@@ -196,7 +199,7 @@
  </ul>
  </li>
  <li><a href="/otzyvy">Отзывы</a></li>
- <li class="active"><span>Контакты</span></li>
+ <li><a href="/contacts">Контакты</a></li>
  </ul> -->
 
           <!-- ///// -->
@@ -251,9 +254,9 @@
             </li>
             <li><a href="/contacts">Контакты</a></li>
             <li>
-              <button data-toggle="modal" data-target="#myModal-x"
-                class="payment__btn-red payment__btn-header">Онлайн-расчёт</button>
-            </li>
+                <button data-toggle="modal" data-target="#myModal-x"
+                  class="payment__btn-red payment__btn-header">Онлайн-расчёт</button>
+              </li>
           </ul>
           <!-- ///////////////// -->
         </nav>
@@ -271,456 +274,700 @@
 
 
       <div id="body">
-        <div class="breadCrumbs">
-          <div class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
-            <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item"
-                href="/"><span itemprop="name">Главная</span></a>
-              <meta itemprop="position" content="1" /></span> <span class="sep">/</span> <span>Контакты</span></div>
-        </div>
-        <section id="catalog">
-          <aside class="ppi5">
-            <nav id="left">
-              <ul id="yw0">
-                <li><a href="/kuhni-iz-massiva-rossii">Кухни из массива России</a></li>
-                <li><a href="/kuhni-kraska">Кухни крашенный МДФ</a></li>
-                <li><a href="/kuhni-iz-shpona">Кухни шпонированный МДФ</a></li>
-                <li><a href="/kuhni-iz-massiva-italii">Кухни Италии</a></li>
-                <li><a href="/garderobnye-sistemy">Гардеробные системы</a></li>
-                <li><a href="/nashi-raboty">Наши работы</a>
-                  <ul>
-                    <li><a href="/kuhni">Кухни</a>
-                      <ul>
-                        <li><a href="/nashi-raboty/kuhni-iz-massiva">Фасады Массив</a></li>
-                        <li><a href="/nashi-raboty/kuhni-plenka-pvh">Фасады Пленочные МДФ</a></li>
-                        <li><a href="/nashi-raboty/kuhni-kraska">Фасады Крашенные МДФ</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="/nashi-raboty/shkafy-kupe">Шкафы-купе</a></li>
-                    <li><a href="/nashi-raboty/garderobnye">Гардеробные</a></li>
-                    <li><a href="/nashi-raboty/spalni">Спальни</a></li>
-                    <li><a href="/nashi-raboty/detskie">Детские</a></li>
-                    <li><a href="/nashi-raboty/vannye-komnaty">Мебель для ванной комнаты</a></li>
-                    <li><a href="/nashi-raboty/mebel-na-zakaz">Мебель на заказ</a></li>
-                    <li><a href="/nashi-raboty/myagkaya-mebel">Мягкая мебель</a></li>
-                    <li><a href="/nashi-raboty/torgovoe-oborudovanie">Торговое оборудование</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </nav>
-          </aside>
-          <section id="insideLeft">
-            <div class="separator small pattern"></div>
-            <h1>Полезные статьи</h1>
+        <!--catalog\index-->
+        <section id="work-order">
+          <h1>Порядок работы</h1>
 
-
-            <div class="textContainer">
-
-              
-            </div>
-
-
-          </section>
-          <div class="clr"></div>
-
-        </section>
-      </div>
-
-
-
-      <section id="news1" class="news">
-        <h3>Новости</h3>
-        <a class="news__all" href="/news">Все новости</a>
-        <div class="news__list row">
-          <div class="col-md-4 col-sm-12 new">
-            <span class="new__date">15 февраля 2019 г.</span>
-            <h4 class="new__title"><a href="/news/44-skidki-do-100-na-tehniku-korting">Скидки до 100% на технику
-                KORTING</a></h4>
-            <p class="new__text">При покупке комплекта бытовой техники Korting на сумму от 150 000 руб. с НДС покупателю
-              предоставляется скидка в зависимости от вида техники на...</p>
-          </div>
-          <div class="col-md-4 col-sm-12 new">
-            <span class="new__date">6 марта 2018 г.</span>
-            <h4 class="new__title"><a href="/news/43-korting-produktovaya-akciya">KORTING &quot;Продуктовая
-                акция&quot;</a></h4>
-            <p class="new__text">Условия акции:
-              При покупке в период акции следующего набора техники, покупатель получает:
-              1) При покупке комплекта техники на сумму 120 000 рублей в...</p>
-          </div>
-          <div class="col-md-4 col-sm-12 new">
-            <span class="new__date">14 сентября 2017 г.</span>
-            <h4 class="new__title"><a href="/news/42-akciya-posudomoechnaya-mashina-v-podarok">Акция! Посудомоечная
-                машина в подарок</a></h4>
-            <p class="new__text">При покупке комплекта встраиваемой техники из 5 предметов:
-              духовкой шкаф + варочная панель + холодильник + встраиваемая СВЧ-печь + 1 прибор на выбор,...</p>
-          </div>
-        </div>
-        <div class="clr"></div>
-      </section>
-      <div class="footer container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-12 footer__section">
-            <div class="h6" style="color: #555555;">КАТАЛОГ ПРОДУКЦИИ</div>
-            <ul id="yw2">
-              <li><span></span></li>
-              <li><a href="/kuhni-iz-massiva-rossii">Кухни из массива России</a></li>
-              <li><a href="/kuhni-kraska">Кухни крашенный МДФ</a></li>
-              <li><a href="/kuhni-iz-shpona">Кухни шпонированный МДФ</a></li>
-              <li><a href="/kuhni-iz-massiva-italii">Кухни Италии</a></li>
-              <li><a href="/garderobnye-sistemy">Гардеробные системы</a></li>
-              <li><a href="/nashi-raboty">Наши работы</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-3 col-md-7 col-sm-12 footer__section">
-            <div class="h6" style="color: #555555;">ГЛАВНАЯ</div>
-            <ul id="yw3">
-              <li><a href="/pokupatelu">Покупателю</a></li>
-              <li><a href="/catalog">Каталог</a></li>
-              <li><a href="/news">Новости</a></li>
-              <li class="active"><span>Контакты</span></li>
-              <li><a href="/partners">Партнёры</a></li>
-              <li><a href="/actions">Акции и предложения</a></li>
-            </ul> <a style="font-size: 14px;color:#999" href="/sitemap">Карта сайта</a>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 footer__section contacts">
-            <div class="contacts__phone">
-              <img src="/uploads/phone.png" alt="">
-              <a href="#">+7 (4942) 501-621</a>
-            </div>
-            <span class="contacts__time">Пн - Пт с 9.00 до 18.00</span><br>
-            <span class="contacts__time">Сб с 10.00 до 16.00</span><br>
-            <div class="contacts__icons">
-              <span>Напишите нам: </span>
-              <span class="soc-icon2  soc-foot ">
-                <a href="//vk.com/palazo" target="_blank" title="vk">
-                  <i class="bkg-vk" aria-hidden="true"></i>
-                </a>
-
-                <a href="https://www.facebook.com/palazo.ru" target="_blank" title="facebook">
-                  <i class="bkg-facebook" aria-hidden="true"></i>
-                </a>
-                <a href="viber://add?number=79103706670" target="_blank" title='viber'>
-                  <i class="bkg-viber" aria-hidden="true"></i>
-                </a>
-                <a href="https://api.whatsapp.com/send?phone=79103706670" target="_blank" title='whatsapp'>
-                  <i class="bkg-whatsapp" aria-hidden="true"></i>
-                </a>
-
-              </span>
-              <span class="contacts__mail">salon@palazo.ru</span>
-              <span class="contacts__address">Кострома, ул. Северной<br>правды, д. 35</span>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-6 col-sm-12 footer__section payment">
-            <div class="payment__share">
-              <span>Поделиться: </span>
-              <a target="_blank" href="//vk.com/palazo" class="payment__icon">
-                <img src="/uploads/social/vk-sq.png" alt="VK">
-              </a>
-              <a target="_blank" href="https://www.facebook.com/palazo.ru" class="payment__icon" name="">
-                <img src="/uploads/social/fb-sq.png" alt="Facebook">
-              </a>
-            </div>
-            <button data-toggle="modal" data-target="#myModal-x" class="payment__btn-red">Онлайн-расчёт</button>
-          </div>
-        </div>
-      </div>
-      <div class="copy">
-        <span>© 2019, студия «Палаццо» Все права защищены.</span>
-      </div>
-    </div>
-  </div>
-  <div class="modal" id="myModal">
-    <div class="blok-center text-center ">
-      <div class="form-zajavka">
-        <div class="container">
-          <div class=" row  zajavka__form3 f-blok justify-content-center">
-            <div class="close-z ">x</div>
-            <div class="f-blok__blok1 col-lg-9">
-              <div class="row blok1_img">
-                <div class="blok1_1 col-lg-5 text-left inp-form-img7 ddz">
-                  <img src="/themes/main/images/shema.jpg" alt="" class="blok1_img">
-                </div>
-                <div class="col-lg-7 blok1_2 text-left">
-                  <p></p>
-                  <div class="inp-form-text1"></div>
-                  <div class="blok1_cena inp-form-text2">50 000 руб.</div>
-                  <p class="p_grey">Погонный метр в стандартной комплектации</p>
-                  <p class="p_text2">Обращаем Ваше внимание, что цены на сайте носят справочный характер.
-                    Окончательные цены уточняйте в салонах у представителей фабрики.
-                  </p>
-                </div>
+          <div class="tabs">
+            <div class="tabs__caption">
+              <div class="tabs__btn active">
+                <img src="uploads/promo/tabs1.svg" alt="" class="tabs__btn-image">
+                <div class="tabs__btn-text">Как заказать</div>
               </div>
-              <div class="row">
-                <div class="col-lg-5 text-left">
-
-                  <div class="h6">СТАНДАРТНАЯ КОМПЛЕКТАЦИЯ:</div>
-                  <img src="/themes/main/images/shema.jpg" alt="" class="blok1_img">
-                </div>
-                <div class="col-lg-7 text-left n-blok">
-                  <p class="p_text1">Длина кухни в базовой комплектации - 3м.</p>
-                  <h4 class="h4-bold">В стандартную комплектацию входит:</h4>
-                  <div class="row">
-                    <div class="col-md-6">
-                      <ul>
-                        <li>Корпуса из ЛДСП Эггер.
-                          <p class="p_text">Австрия. Покрыая немецким пластиком</p>
-                        </li>
-                        <li>Столешница 38мм
-                          <p class="p_text">постформинг</p>
-                        </li>
-                        <li>Ручки</li>
-                        <li>Плинтус</li>
-                        <li>Цоколь</li>
-                      </ul>
-                    </div>
-                    <div class="col-md-6">
-                      <ul>
-                        <li>Петли Blum
-                          <p class="p_text"> Австрия</p>
-                        </li>
-                        <li> Системы выдвижения ящиков
-                          <p class="p_text">Metabox 3 ящика<br> Blum, Австрия</p>
-                        </li>
-                        <li>Полки ДСП</li>
-                        <li> Сушка 2-уровневая
-                          <p class="p_text"> </p>
-                        </li>
-                      </ul>
-                    </div>
+              <div class="tabs__btn">
+                <img src="uploads/promo/tabs2.svg" alt="" class="tabs__btn-image">
+                <div class="tabs__btn-text">Порядок работы</div>
+              </div>
+              <div class="tabs__btn">
+                <img src="uploads/promo/tabs3.svg" alt="" class="tabs__btn-image">
+                <div class="tabs__btn-text">Доставка и установка</div>
+              </div>
+              <div class="tabs__btn">
+                <img src="uploads/promo/tabs4.svg" alt="" class="tabs__btn-image">
+                <div class="tabs__btn-text">Сроки и гарантии</div>
+              </div>
+              <div class="tabs__btn">
+                <img src="uploads/promo/tabs5.svg" alt="" class="tabs__btn-image">
+                <div class="tabs__btn-text">Договор и оплата</div>
+              </div>
+            </div>
+            <div class="tabs__wrap">
+              <div class="tabs__content active">
+                <div class="tabs_work-wrapper">
+                  <div class="tabs-item">
+                    Студия &laquo;Палаццо&raquo; предлагает клиентам высококачественную мебель в&nbsp;Костроме
+                    на&nbsp;заказ. Наше предприятие может похвастаться огромным ассортиментом и&nbsp;оптимизированной
+                    ценовой политикой. За&nbsp;долгое время работы в&nbsp;мебельной отрасли, компания
+                    &laquo;Палаццо&raquo; смогла завоевать любовь
+                  </div>
+                  <div class="tabs-item">
+                    Студия &laquo;Палаццо&raquo; предлагает клиентам высококачественную мебель в&nbsp;Костроме
+                    на&nbsp;заказ. Наше предприятие может похвастаться огромным ассортиментом и&nbsp;оптимизированной
+                    ценовой политикой. За&nbsp;долгое время работы в&nbsp;мебельной отрасли, компания
+                    &laquo;Палаццо&raquo; смогла завоевать любовь
+                  </div>
+                  <div class="tabs-item">
+                    Студия &laquo;Палаццо&raquo; предлагает клиентам высококачественную мебель в&nbsp;Костроме
+                    на&nbsp;заказ. Наше предприятие может похвастаться огромным ассортиментом и&nbsp;оптимизированной
+                    ценовой политикой. За&nbsp;долгое время работы в&nbsp;мебельной отрасли, компания
+                    &laquo;Палаццо&raquo; смогла завоевать любовь
+                  </div>
+                  <div class="tabs-item">
+                    Студия &laquo;Палаццо&raquo; предлагает клиентам высококачественную мебель в&nbsp;Костроме
+                    на&nbsp;заказ. Наше предприятие может похвастаться огромным ассортиментом и&nbsp;оптимизированной
+                    ценовой политикой. За&nbsp;долгое время работы в&nbsp;мебельной отрасли, компания
+                    &laquo;Палаццо&raquo; смогла завоевать любовь
                   </div>
                 </div>
               </div>
-              <div class="row text-left">
-                <div class="col-md-12">
-                  <span class="span_b">
-                    <span class="span_red">В комплектацию не входит: </span>
-                    мойка, смеситель, встраиваемая техника, холодильник, вытяжка
-                  </span>
+              <div class="tabs__content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laudantium ad mollitia voluptate,
+                commodi maiores dolorem repellat doloremque ipsa temporibus cupiditate magni dolor, autem impedit saepe
+                totam sed quisquam neque.
+              </div>
+              <div class="tabs__content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laudantium ad mollitia voluptate,
+                commodi maiores dolorem repellat doloremque ipsa temporibus cupiditate magni dolor, autem impedit saepe
+                totam sed quisquam neque.
+              </div>
+              <div class="tabs__content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laudantium ad mollitia voluptate,
+                commodi maiores dolorem repellat doloremque ipsa temporibus cupiditate magni dolor, autem impedit saepe
+                totam sed quisquam neque.
+              </div>
+              <div class="tabs__content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laudantium ad mollitia voluptate,
+                commodi maiores dolorem repellat doloremque ipsa temporibus cupiditate magni dolor, autem impedit saepe
+                totam sed quisquam neque.
+              </div>
+            </div>
+          </div>
+
+          <div class="how-work">
+            <h3 class="how-work__title">
+              Как мы работаем над вашим заказом
+            </h3>
+            <div class="how-work__main-block">
+              <div class="how-work__item">
+                <div class="item_image-wrapper">
+                  <div class="vector-down"></div>
+                  <img src="uploads/promo/001-calculator.svg" alt="" class="how-work__image">
+                </div>
+                <div class="after">*</div>
+                <div class="how-work__more-info">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, voluptatem ad magnam distinctio
+                  minima optio dicta maxime esse earum aliquid dolorem iusto accusamus alias ab quo, harum, eius vel
+                  nemo.
+                </div>
+                <div class="how-work__text">
+                  Предварительный расчет
+                </div>
+              </div>
+              <div class="how-work__item">
+                <div class="item_image-wrapper">
+                  <div class="vector-up"></div>
+                  <img src="uploads/promo/006-sketch.svg" alt="" class="how-work__image">
+                </div>
+                <div class="after">*</div>
+                <div class="how-work__more-info">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, voluptatem ad magnam distinctio
+                  minima optio dicta maxime esse earum aliquid dolorem iusto accusamus alias ab quo, harum, eius vel
+                  nemo.
+                </div>
+                <div class="how-work__text">
+                  Встреча и&nbsp;обсуждение<br> эскиза
+                </div>
+              </div>
+              <div class="how-work__item">
+                <div class="item_image-wrapper">
+                  <div class="vector-down"></div>
+                  <img src="uploads/promo/005-contract.svg" alt="" class="how-work__image">
+                </div>
+                <div class="after">*</div>
+                <div class="how-work__more-info">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, voluptatem ad magnam distinctio
+                  minima optio dicta maxime esse earum aliquid dolorem iusto accusamus alias ab quo, harum, eius vel
+                  nemo.
+                </div>
+                <div class="how-work__text">
+                  Заключение договора
+                </div>
+              </div>
+              <div class="how-work__item">
+                <div class="item_image-wrapper">
+                  <div class="vector-up"></div>
+                  <img src="uploads/promo/004-manufacture.svg" alt="" class="how-work__image">
+                </div>
+                <div class="after">*</div>
+                <div class="how-work__more-info">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, voluptatem ad magnam distinctio
+                  minima optio dicta maxime esse earum aliquid dolorem iusto accusamus alias ab quo, harum, eius vel
+                  nemo.
+                </div>
+                <div class="how-work__text">
+                  Производство мебели
+                </div>
+              </div>
+              <div class="how-work__item">
+                <div class="item_image-wrapper">
+                  <div class="vector-down"></div>
+                  <img src="uploads/promo/003-shipped.svg" alt="" class="how-work__image">
+                </div>
+                <div class="after">*</div>
+                <div class="how-work__more-info">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, voluptatem ad magnam distinctio
+                  minima optio dicta maxime esse earum aliquid dolorem iusto accusamus alias ab quo, harum, eius vel
+                  nemo.
+                </div>
+                <div class="how-work__text">
+                  Доставка
+                </div>
+              </div>
+              <div class="how-work__item">
+                <div class="item_image-wrapper">
+                  <img src="uploads/promo/002-kitchen.svg" alt="" class="how-work__image">
+                </div>
+                <div class="after">*</div>
+                <div class="how-work__more-info">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, voluptatem ad magnam distinctio
+                  minima optio dicta maxime esse earum aliquid dolorem iusto accusamus alias ab quo, harum, eius vel
+                  nemo.
+                </div>
+                <div class="how-work__text">
+                  Монтаж
                 </div>
               </div>
             </div>
-            <div class="f-blok__blok2 col-lg-3">
-              <h3 class="h3_19">Заказать замер</h3>
-              <form action="send2.php" method="post">
-                <div class="form-group">
-                  <label for="name-o">Имя:</label>
-                  <input type="text" name="name" class="form-control" id="name-o" placeholder="">
-                  <div id="bthrow_error_name-o" class="red"></div>
-                </div>
+          </div>
 
-                <div class="form-group">
-                  <label for="telf-o">Контактный телефон:</label>
-                  <input type="tel" name="telf-o" class="form-control" id="telf-o" placeholder="">
-                  <div id="bthrow_error_telf-o" class="red"></div>
+          <div class="promo promo-full container-fluid">
+            <h3>Почему наша мебель не как у всех?</h3>
+            <div class="promo-full__row active">
+              <div class="promo__list">
+                <div class="promo__item">
+                  <img src="uploads/promo/5.png" alt="">
+                  <a href="#">Бесплатный дизайн проект в нескольких вариантах</a>
                 </div>
-
-                <div class="form-group">
-                  <label for="email-o">Город:</label>
-                  <input type="email" name="email-o" class="form-control" id="email-o" placeholder="">
-                  <div id="bthrow_error_email-o" class="red"></div>
+                <div class="promo__item">
+                  <img src="uploads/promo/6.png" alt="">
+                  <a href="#">Редкие и инновационные решения дизайна</a>
                 </div>
-
-
-                <div class="form-group">
-                  <label for="coment">Комментарий:</label>
-                  <textarea name="coment" id="coment" cols="30" rows="5" placeholder=""></textarea>
+                <div class="promo__item">
+                  <img src="uploads/promo/7.png" alt="">
+                  <a href="#">Изготовление нестандартных элементов</a>
                 </div>
-                <div class="form-group">
-                  <a href="" type="submit" id="send-f">Вызвать замерщика</a>
+                <div class="promo__item">
+                  <img src="uploads/promo/8.png" alt="">
+                  <a href="#">Оптимальное соотношение цены и качества</a>
                 </div>
+              </div>
+            </div>
+            <div class="promo-full__row">
+              <div class="promo__list">
+                <div class="col-lg-3 col-md-6 col-12 promo__item">
+                  <img src="uploads/promo/9.png" alt="">
+                  <a href="#">Большое количество декоративных элементов и возможность их использования</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 promo__item">
+                  <img src="uploads/promo/10.png" alt="">
+                  <a href="#">Рассрочка платежа и кредит</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 promo__item">
+                  <img src="uploads/promo/11.png" alt="">
+                  <a href="#">Профессиональная подготовка и обучение специалистов</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 promo__item">
+                  <img src="uploads/promo/12.png" alt="">
+                  <a href="#">Использование высококачественных материалов и фурнитуры</a>
+                </div>
+              </div>
+            </div>
+            <div class="promo-full__row">
+              <div class="promo__list">
+                <div class="col-lg-3 col-md-6 col-12 promo__item">
+                  <img src="uploads/promo/13.png" alt="">
+                  <a href="#">Расчет заявок через интернет</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 promo__item">
+                  <img src="uploads/promo/14.png" alt="">
+                  <a href="#">Квалифицированные замерщики</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 promo__item">
+                  <img src="uploads/promo/15.png" alt="">
+                  <a href="#">Профессиональный монтаж и согласованная доставка мебели</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 promo__item">
+                  <img src="uploads/promo/16.png" alt="">
+                  <a href="#">Гарантийное обслуживание</a>
+                </div>
+              </div>
+            </div>
+            <a href="#" id="promo-full-prev"><img src="uploads/arrow-left.png" alt=""></a>
+            <div class="promo-full-mobile">
+              <div class="promo__list">
+                <div class="promo__item">
+                  <img src="uploads/promo/1.png" alt="">
+                  <a href="#">Бесплатный дизайн проект в нескольких вариантах</a>
+                </div>
+                <div class="promo__item">
+                  <img src="uploads/promo/2.png" alt="">
+                  <a href="#">Редкие и инновационные решения дизайна</a>
+                </div>
+                <div class="promo__item">
+                  <img src="uploads/promo/3.png" alt="">
+                  <a href="#">Изготовление нестандартных элементов</a>
+                </div>
+                <div class="promo__item">
+                  <img src="uploads/promo/4.png" alt="">
+                  <a href="#">Оптимальное соотношение цены и качества</a>
+                </div>
+                <div class="promo__item">
+                  <img src="uploads/promo/5.png" alt="">
+                  <a href="#">Большое количество декоративных элементов и возможность их использования</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 promo__item">
+                  <img src="uploads/promo/6.png" alt="">
+                  <a href="#">Рассрочка платежа и кредит</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 promo__item">
+                  <img src="uploads/promo/7.png" alt="">
+                  <a href="#">Профессиональная подготовка и обучение специалистов</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 promo__item">
+                  <img src="uploads/promo/8.png" alt="">
+                  <a href="#">Использование высококачественных материалов и фурнитуры</a>
+                </div>
+                <div class="promo__item">
+                  <img src="uploads/promo/9.png" alt="">
+                  <a href="#">Расчет заявок через интернет</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 promo__item">
+                  <img src="uploads/promo/10.png" alt="">
+                  <a href="#">Квалифицированные замерщики</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 promo__item">
+                  <img src="uploads/promo/11.png" alt="">
+                  <a href="#">Профессиональный монтаж и согласованная доставка мебели</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 promo__item">
+                  <img src="uploads/promo/12.png" alt="">
+                  <a href="#">Гарантийное обслуживание</a>
+                </div>
+              </div>
+            </div>
+            <a href="#" id="promo-full-next"><img src="uploads/arrow-right.png" alt=""></a>
+            <span class="promo-full__link news-full__link" id="all-promo">Показать еще</span>
+            <div class="promo-fill-block"></div>
+          </div>
 
-                <div class="form-group">
-                  <input type="checkbox" name="check-name" checked="checked" id="condition1-o">
-                  <span>
-                    Даю согласие на <a href="/pokupatelu/politika"> на обработку</a> персональных данных
+
+          <form action="" method="post" class="form-m design-form">
+            <div class='h3 h3_19'>Заполните и получите бесплатный дизайн-проект</div>
+            <div class="flex-46">
+              <div class="form-input-wrapper">
+                <input type="text" id="namey" name="name" placeholder="Ваше имя:">
+                <div class="errorx red" id="bthrow_error_namey"></div>
+              </div>
+              <div class="form-input-wrapper">
+                <input type="tel" id="telfy" name="telf" placeholder="Ваш телефон:">
+                <div class="errorx red" id="bthrow_error_telfy"></div>
+              </div>
+              <div class="form-input-wrapper">
+                <input type="text" id="gorody" name="gorod" placeholder="Ваш город:">
+                <div class="errorx red" id="bthrow_error_phoney"></div>
+              </div>
+            </div>
+            <div class="flex-47">
+              <div class="chs7">
+                <input type="checkbox" name="check-name" checked="checked" id="condition1y">
+                <a style="color:#aaa" href='/pokupatelu/politika'> Даю согласие на обработку персональных данных </a>
+              </div>
+              <input type="submit" value="Заказать замер" class="btn2">
+            </div>
+            <div class="errorx red" id="bthrow_error_checky"></div>
+            <div class="" id="itogoy"></div>
+            <div class="throw_error errorx"></div>
+          </form>
+          <!-- ///////// -->
+
+
+          <div class="footer container">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-12 footer__section">
+                <div class="h6" style="color: #555555;">КАТАЛОГ ПРОДУКЦИИ</div>
+                <ul id="yw1">
+                  <li><span></span></li>
+                  <li><a href="/kuhni-iz-massiva-rossii">Кухни из массива России</a></li>
+                  <li><a href="/kuhni-kraska">Кухни крашенный МДФ</a></li>
+                  <li><a href="/kuhni-iz-shpona">Кухни шпонированный МДФ</a></li>
+                  <li><a href="/kuhni-iz-massiva-italii">Кухни Италии</a></li>
+                  <li><a href="/garderobnye-sistemy">Гардеробные системы</a></li>
+                  <li><a href="/nashi-raboty">Наши работы</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-7 col-sm-12 footer__section">
+                <div class="h6" style="color: #555555;">ГЛАВНАЯ</div>
+                <ul id="yw2">
+                  <li><a href="/pokupatelu">Покупателю</a></li>
+                  <li class="active"><span>Каталог</span></li>
+                  <li><a href="/news">Новости</a></li>
+                  <li><a href="/contacts">Контакты</a></li>
+                  <li><a href="/partners">Партнёры</a></li>
+                  <li><a href="/actions">Акции и предложения</a></li>
+                </ul> <a style="font-size: 14px;color:#999" href="/sitemap">Карта сайта</a>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 footer__section contacts">
+                <div class="contacts__phone">
+                  <img src="/uploads/phone.png" alt="">
+                  <a href="#">+7 (4942) 501-621</a>
+                </div>
+                <span class="contacts__time">Пн - Пт с 9.00 до 18.00</span><br>
+                <span class="contacts__time">Сб с 10.00 до 16.00</span><br>
+                <div class="contacts__icons">
+                  <span>Напишите нам: </span>
+                  <span class="soc-icon2  soc-foot ">
+                    <a href="//vk.com/palazo" target="_blank" title="vk">
+                      <i class="bkg-vk" aria-hidden="true"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/palazo.ru" target="_blank" title="facebook">
+                      <i class="bkg-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="viber://add?number=79103706670" target="_blank" title='viber'>
+                      <i class="bkg-viber" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=79103706670" target="_blank" title='whatsapp'>
+                      <i class="bkg-whatsapp" aria-hidden="true"></i>
+                    </a>
+
                   </span>
-                  <div id="bthrow_error_check-o" class="red"></div>
-                  <div class='itogo-o'></div>
-                  <input type="hidden" name="name-izdelia" class="mod-inp-name">
-                  <input type="hidden" name="cena-izdelia" class="mod-inp-cena">
+                  <span class="contacts__mail">salon@palazo.ru</span>
+                  <span class="contacts__address">Кострома, ул. Северной<br>правды, д. 35</span>
                 </div>
-              </form>
+              </div>
+              <div class="col-lg-2 col-md-6 col-sm-12 footer__section payment">
+                <div class="payment__share">
+                  <span>Поделиться: </span>
+                  <a target="_blank" href="//vk.com/palazo" class="payment__icon">
+                    <img src="/uploads/social/vk-sq.png" alt="VK">
+                  </a>
+                  <a target="_blank" href="https://www.facebook.com/palazo.ru" class="payment__icon" name="">
+                    <img src="/uploads/social/fb-sq.png" alt="Facebook">
+                  </a>
+                </div>
+                <button data-toggle="modal" data-target="#myModal-x" class="payment__btn-red">Онлайн-расчёт</button>
+              </div>
+            </div>
+          </div>
+          <div class="copy">
+            <span>© 2019, студия «Палаццо» Все права защищены.</span>
+          </div>
+      </div>
+    </div>
+    <div class="modal" id="myModal">
+      <div class="blok-center text-center ">
+        <div class="form-zajavka">
+          <div class="container">
+            <div class=" row  zajavka__form3 f-blok justify-content-center">
+              <div class="close-z ">x</div>
+              <div class="f-blok__blok1 col-lg-9">
+                <div class="row blok1_img">
+                  <div class="blok1_1 col-lg-5 text-left inp-form-img7 ddz">
+                    <img src="/themes/main/images/shema.jpg" alt="" class="blok1_img">
+                  </div>
+                  <div class="col-lg-7 blok1_2 text-left">
+                    <p></p>
+                    <div class="inp-form-text1"></div>
+                    <div class="blok1_cena inp-form-text2">50 000 руб.</div>
+                    <p class="p_grey">Погонный метр в стандартной комплектации</p>
+                    <p class="p_text2">Обращаем Ваше внимание, что цены на сайте носят справочный характер.
+                      Окончательные цены уточняйте в салонах у представителей фабрики.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-5 text-left">
+
+                    <div class="h6">СТАНДАРТНАЯ КОМПЛЕКТАЦИЯ:</div>
+                    <img src="/themes/main/images/shema.jpg" alt="" class="blok1_img">
+                  </div>
+                  <div class="col-lg-7 text-left n-blok">
+                    <p class="p_text1">Длина кухни в базовой комплектации - 3м.</p>
+                    <h4 class="h4-bold">В стандартную комплектацию входит:</h4>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <ul>
+                          <li>Корпуса из ЛДСП Эггер.
+                            <p class="p_text">Австрия. Покрыая немецким пластиком</p>
+                          </li>
+                          <li>Столешница 38мм
+                            <p class="p_text">постформинг</p>
+                          </li>
+                          <li>Ручки</li>
+                          <li>Плинтус</li>
+                          <li>Цоколь</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-6">
+                        <ul>
+                          <li>Петли Blum
+                            <p class="p_text"> Австрия</p>
+                          </li>
+                          <li> Системы выдвижения ящиков
+                            <p class="p_text">Metabox 3 ящика<br> Blum, Австрия</p>
+                          </li>
+                          <li>Полки ДСП</li>
+                          <li> Сушка 2-уровневая
+                            <p class="p_text"> </p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row text-left">
+                  <div class="col-md-12">
+                    <span class="span_b">
+                      <span class="span_red">В комплектацию не входит: </span>
+                      мойка, смеситель, встраиваемая техника, холодильник, вытяжка
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="f-blok__blok2 col-lg-3">
+                <h3 class="h3_19">Заказать замер</h3>
+                <form action="send2.php" method="post">
+                  <div class="form-group">
+                    <label for="name-o">Имя:</label>
+                    <input type="text" name="name" class="form-control" id="name-o" placeholder="">
+                    <div id="bthrow_error_name-o" class="red"></div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="telf-o">Контактный телефон:</label>
+                    <input type="tel" name="telf-o" class="form-control" id="telf-o" placeholder="">
+                    <div id="bthrow_error_telf-o" class="red"></div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="email-o">Город:</label>
+                    <input type="email" name="email-o" class="form-control" id="email-o" placeholder="">
+                    <div id="bthrow_error_email-o" class="red"></div>
+                  </div>
+
+
+                  <div class="form-group">
+                    <label for="coment">Комментарий:</label>
+                    <textarea name="coment" id="coment" cols="30" rows="5" placeholder=""></textarea>
+                  </div>
+                  <div class="form-group">
+                    <a href="" type="submit" id="send-f">Вызвать замерщика</a>
+                  </div>
+
+                  <div class="form-group">
+                    <input type="checkbox" name="check-name" checked="checked" id="condition1-o">
+                    <span>
+                      Даю согласие на <a href="/pokupatelu/politika"> на обработку</a> персональных данных
+                    </span>
+                    <div id="bthrow_error_check-o" class="red"></div>
+                    <div class='itogo-o'></div>
+                    <input type="hidden" name="name-izdelia" class="mod-inp-name">
+                    <input type="hidden" name="cena-izdelia" class="mod-inp-cena">
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="modal" id="myModal-x">
-    <div class="blok-center text-center ">
-      <!-- start s-calc-->
-      <div class="s-calc section  bg-gray">
-        <div class="container">
-          <div class="close-zz ">x</div>
-          <div class="title-wrap text-center">
-            <div class="h2 strong ttu">Рассчитайте стоимость КУХНИ ВАШЕЙ МЕЧТЫ ЗА&nbsp;1&nbsp;МИНУТУ!</div>
-            <div class="h5">1156 клиентов уже воспользовались этой услугой</div>
-          </div>
-          <div class="page-width" id="s-calc">
-            <div class="cost-block-wrap">
-              <div class="calculator">
-                <div class="cost-content-block cont-wrp">
-                  <p class="title strong h5"><span>1</span>Выберите вид гарнитура и укажите его размеры </p>
-                  <div class="wrap-block wrap-cost-width clearfix">
-                    <!-- labels-->
-                    <label>
-                      <div class="first-b c-block cost-c-width cost-c-width-checked">
-                        <input type="radio" name="cost" value="t-cost" />
-                        <div class="img-wrap"><img src="/themes/main/images/imgxxx/calc-t-cost-img.jpg" alt="Прямой" />
+    <div class="modal" id="myModal-x">
+      <div class="blok-center text-center ">
+        <!-- start s-calc-->
+        <div class="s-calc section  bg-gray">
+          <div class="container">
+            <div class="close-zz ">x</div>
+            <div class="title-wrap text-center">
+              <div class="h2 strong ttu">Рассчитайте стоимость КУХНИ ВАШЕЙ МЕЧТЫ ЗА&nbsp;1&nbsp;МИНУТУ!</div>
+              <div class="h5">1156 клиентов уже воспользовались этой услугой</div>
+            </div>
+            <div class="page-width" id="s-calc">
+              <div class="cost-block-wrap">
+                <div class="calculator">
+                  <div class="cost-content-block cont-wrp">
+                    <p class="title strong h5"><span>1</span>Выберите вид гарнитура и укажите его размеры </p>
+                    <div class="wrap-block wrap-cost-width clearfix">
+                      <!-- labels-->
+                      <label>
+                        <div class="first-b c-block cost-c-width cost-c-width-checked">
+                          <input type="radio" name="cost" value="t-cost" />
+                          <div class="img-wrap"><img src="/themes/main/images/imgxxx/calc-t-cost-img.jpg"
+                              alt="Прямой" />
+                          </div>
+                          <p>Прямой</p>
                         </div>
-                        <p>Прямой</p>
-                      </div>
-                    </label>
-                    <label>
-                      <div class="c-block cost-c-width">
-                        <input type="radio" name="cost" value="g-cost-l" />
-                        <div class="img-wrap"><img src="/themes/main/images/imgxxx/calc-g-cost-l-img.jpg"
-                            alt="Г-образный(левый)" /></div>
-                        <p>Г-образный (левый)</p>
-                      </div>
-                    </label>
-                    <label>
-                      <div class="c-block cost-c-width">
-                        <input type="radio" name="cost" value="g-cost-r" />
-                        <div class="img-wrap"><img src="/themes/main/images/imgxxx/calc-g-cost-r-img.jpg"
-                            alt="Г-образный(правый)" /></div>
-                        <p>Г-образный (правый)</p>
-                      </div>
-                    </label>
-                    <label>
-                      <div class="c-block cost-c-width">
-                        <input type="radio" name="cost" value="p-cost" />
-                        <div class="img-wrap"><img src="/themes/main/images/imgxxx/calc-p-cost-img.jpg"
-                            alt="П-образный" /></div>
-                        <p>П-образный</p>
-                      </div>
-                    </label>
-                    <label>
-                      <div class="c-block cost-c-width" style="margin-right:0;">
-                        <input type="radio" name="cost" value="d-cost" />
-                        <div class="img-wrap"><img src="/themes/main/images/imgxxx/calc-d-cost-img.jpg"
-                            alt="Параллельный" /></div>
-                        <p>Параллельный</p>
-                      </div>
-                    </label>
-                    <!-- /labels-->
-                  </div>
-                  <div class="row">
-                    <div class="cost-content-l col-lg-7">
-                      <!-- calculator-->
-                      <div class="selects margin-bottom-none">
-                        <div class="h on">
-                          <div class="text">
-                            <!-- <input type="text" maxlength="3" value="0" name="top" id="top_m">  м&nbsp;&nbsp;&nbsp;-->
-                            <input id="topx" type="text" value="200" name="top" />
-                          </div>
-                          <div class="l"></div>
-                          <div class="r"></div>
-                          <div class="noUiSlider horizontal connect" id="stop">
-                            <div class="ll"></div>
-                            <div class="rr"></div>
-                          </div>
+                      </label>
+                      <label>
+                        <div class="c-block cost-c-width">
+                          <input type="radio" name="cost" value="g-cost-l" />
+                          <div class="img-wrap"><img src="/themes/main/images/imgxxx/calc-g-cost-l-img.jpg"
+                              alt="Г-образный(левый)" /></div>
+                          <p>Г-образный (левый)</p>
                         </div>
-                        <div class="b" style="display: none;">
-                          <div class="text">
-                            <input id="bot" type="text" value="200" name="bot" />
-                          </div>
-                          <div class="l"></div>
-                          <div class="r"></div>
-                          <div class="noUiSlider horizontal connect" id="sbot">
-                            <div class="ll"></div>
-                            <div class="rr"></div>
-                          </div>
+                      </label>
+                      <label>
+                        <div class="c-block cost-c-width">
+                          <input type="radio" name="cost" value="g-cost-r" />
+                          <div class="img-wrap"><img src="/themes/main/images/imgxxx/calc-g-cost-r-img.jpg"
+                              alt="Г-образный(правый)" /></div>
+                          <p>Г-образный (правый)</p>
                         </div>
-                        <div class="vl" style="display: none;">
-                          <div class="text">
-                            <input id="leftx" type="text" value="200" name="left" />
-                          </div>
-                          <div class="l"></div>
-                          <div class="r"></div>
-                          <div class="noUiSlider vertical connect" id="sleft">
-                            <div class="tt"></div>
-                            <div class="bb"></div>
-                          </div>
+                      </label>
+                      <label>
+                        <div class="c-block cost-c-width">
+                          <input type="radio" name="cost" value="p-cost" />
+                          <div class="img-wrap"><img src="/themes/main/images/imgxxx/calc-p-cost-img.jpg"
+                              alt="П-образный" /></div>
+                          <p>П-образный</p>
                         </div>
-                        <div class="vr" style="display: none;">
-                          <div class="text">
-                            <input id="right" type="text" value="200" name="right" />
-                          </div>
-                          <div class="l"></div>
-                          <div class="r"></div>
-                          <div class="noUiSlider vertical connect" id="sright">
-                            <div class="tt"></div>
-                            <div class="bb"></div>
-                          </div>
+                      </label>
+                      <label>
+                        <div class="c-block cost-c-width" style="margin-right:0;">
+                          <input type="radio" name="cost" value="d-cost" />
+                          <div class="img-wrap"><img src="/themes/main/images/imgxxx/calc-d-cost-img.jpg"
+                              alt="Параллельный" /></div>
+                          <p>Параллельный</p>
                         </div>
-                        <div class="img"><img id="img_ktype" alt=""
-                            src="/themes/main/images/imgxxx/calc-t-cost-img.jpg" /></div>
-                      </div>
-                      <!-- /calculator-->
+                      </label>
+                      <!-- /labels-->
                     </div>
-                    <div class="cost-content-r col">
-                      <p class="title strong h5"><span>2 </span> Выберите материал фасада</p>
-                      <p class="mob-text-calc">Узнать стоимость кухни<br />за 5-10 минут?</p>
-                      <form name="form-file" action="send-test.php" method='post'>
-                        <input class="order" type="hidden" name="order" value="Просчет кухни" /><span
-                          style="display:none;">
-                          <input id="inp_secl_type" type="text" value="Прямой" name="type" />
-                          <input id="inp_secl_t" type="text" name="dlina" value="200" />
-                          <input id="inp_secl_l" type="text" name="left" />
-                          <input id="inp_secl_r" type="text" name="right" />
-                          <input id="inp_secl_d" type="text" name="dlina2" /></span>
-                        <select name="material" required="required">
-                          <option disabled="" selected="" value="" style="display:none;">Материал фасада</option>
-                          <option>Пленка ПВХ</option>
-                          <option>Пластик</option>
-                          <option>Массив дерева</option>
-                          <option>Эмаль</option>
-                        </select><br />
-                        <div class="tech">
-                          <select name="material_stol" required="required">
-                            <option disabled="" selected="" value="" style="display:none;">
-                              Материал
-                              столешницы
-                            </option>
-                            <option>Искусственный камень</option>
+                    <div class="row">
+                      <div class="cost-content-l col-lg-7">
+                        <!-- calculator-->
+                        <div class="selects margin-bottom-none">
+                          <div class="h on">
+                            <div class="text">
+                              <!-- <input type="text" maxlength="3" value="0" name="top" id="top_m">  м&nbsp;&nbsp;&nbsp;-->
+                              <input id="topx" type="text" value="200" name="top" />
+                            </div>
+                            <div class="l"></div>
+                            <div class="r"></div>
+                            <div class="noUiSlider horizontal connect" id="stop">
+                              <div class="ll"></div>
+                              <div class="rr"></div>
+                            </div>
+                          </div>
+                          <div class="b" style="display: none;">
+                            <div class="text">
+                              <input id="bot" type="text" value="200" name="bot" />
+                            </div>
+                            <div class="l"></div>
+                            <div class="r"></div>
+                            <div class="noUiSlider horizontal connect" id="sbot">
+                              <div class="ll"></div>
+                              <div class="rr"></div>
+                            </div>
+                          </div>
+                          <div class="vl" style="display: none;">
+                            <div class="text">
+                              <input id="leftx" type="text" value="200" name="left" />
+                            </div>
+                            <div class="l"></div>
+                            <div class="r"></div>
+                            <div class="noUiSlider vertical connect" id="sleft">
+                              <div class="tt"></div>
+                              <div class="bb"></div>
+                            </div>
+                          </div>
+                          <div class="vr" style="display: none;">
+                            <div class="text">
+                              <input id="right" type="text" value="200" name="right" />
+                            </div>
+                            <div class="l"></div>
+                            <div class="r"></div>
+                            <div class="noUiSlider vertical connect" id="sright">
+                              <div class="tt"></div>
+                              <div class="bb"></div>
+                            </div>
+                          </div>
+                          <div class="img"><img id="img_ktype" alt=""
+                              src="/themes/main/images/imgxxx/calc-t-cost-img.jpg" /></div>
+                        </div>
+                        <!-- /calculator-->
+                      </div>
+                      <div class="cost-content-r col">
+                        <p class="title strong h5"><span>2 </span> Выберите материал фасада</p>
+                        <p class="mob-text-calc">Узнать стоимость кухни<br />за 5-10 минут?</p>
+                        <form name="form-file" action="send-test.php" method='post'>
+                          <input class="order" type="hidden" name="order" value="Просчет кухни" /><span
+                            style="display:none;">
+                            <input id="inp_secl_type" type="text" value="Прямой" name="type" />
+                            <input id="inp_secl_t" type="text" name="dlina" value="200" />
+                            <input id="inp_secl_l" type="text" name="left" />
+                            <input id="inp_secl_r" type="text" name="right" />
+                            <input id="inp_secl_d" type="text" name="dlina2" /></span>
+                          <select name="material" required="required">
+                            <option disabled="" selected="" value="" style="display:none;">Материал фасада</option>
+                            <option>Пленка ПВХ</option>
                             <option>Пластик</option>
-                          </select>
-                          <div class="tech-title">Техника</div>
-                          <div class="small">
-                            <div class="tech-block biger">
-                              <input id="duhovka" type="checkbox" name="tech[]" value="Духовой шкаф" />
-                              <label for="duhovka">Духовой шкаф</label>
-                            </div>
-                            <div class="tech-block">
-                              <input id="plita" type="checkbox" name="tech[]" value="Варочная панель" />
-                              <label for="plita">Варочная панель</label>
-                            </div>
-                            <div class="tech-block biger">
-                              <input id="freez" type="checkbox" name="tech[]" value="Посудомоечная машина" />
-                              <label for="freez">
-                                Посудомоечная
-                                машина
-                              </label>
-                            </div>
-                            <div class="tech-block">
-                              <input id="vent" type="checkbox" name="tech[]" value="Вытяжка" />
-                              <label for="vent">Вытяжка</label>
+                            <option>Массив дерева</option>
+                            <option>Эмаль</option>
+                          </select><br />
+                          <div class="tech">
+                            <select name="material_stol" required="required">
+                              <option disabled="" selected="" value="" style="display:none;">
+                                Материал
+                                столешницы
+                              </option>
+                              <option>Искусственный камень</option>
+                              <option>Пластик</option>
+                            </select>
+                            <div class="tech-title">Техника</div>
+                            <div class="small">
+                              <div class="tech-block biger">
+                                <input id="duhovka" type="checkbox" name="tech[]" value="Духовой шкаф" />
+                                <label for="duhovka">Духовой шкаф</label>
+                              </div>
+                              <div class="tech-block">
+                                <input id="plita" type="checkbox" name="tech[]" value="Варочная панель" />
+                                <label for="plita">Варочная панель</label>
+                              </div>
+                              <div class="tech-block biger">
+                                <input id="freez" type="checkbox" name="tech[]" value="Посудомоечная машина" />
+                                <label for="freez">
+                                  Посудомоечная
+                                  машина
+                                </label>
+                              </div>
+                              <div class="tech-block">
+                                <input id="vent" type="checkbox" name="tech[]" value="Вытяжка" />
+                                <label for="vent">Вытяжка</label>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                        <input class="form-control form-control-sm" id="aics_name" type="text" name="nametext"
-                          placeholder="Ваше имя" /><span style="display:none;">
-                          <input type="text" name="form_type" placeholder=""
-                            value="Форма и размер гарнитуры не выбраны" /></span>
-                        <input class="form-control form-control-sm" id="pphone" type="tel" name="nametel"
-                          required="required" placeholder="Ваш телефон" />
-                        <input class="nonetext" type="text" style="display:none;" name="formprice" value="нету" />
-                        <div class="center">
-                          <input class="btn-main btn-accent btn-lg btn-block" id="calc-form-sub" type="submit"
-                            value="Получить бесплатный расчет" />
-                        </div>
-                      </form>
+                          <input class="form-control form-control-sm" id="aics_name" type="text" name="nametext"
+                            placeholder="Ваше имя" /><span style="display:none;">
+                            <input type="text" name="form_type" placeholder=""
+                              value="Форма и размер гарнитуры не выбраны" /></span>
+                          <input class="form-control form-control-sm" id="pphone" type="tel" name="nametel"
+                            required="required" placeholder="Ваш телефон" />
+                          <input class="nonetext" type="text" style="display:none;" name="formprice" value="нету" />
+                          <div class="center">
+                            <input class="btn-main btn-accent btn-lg btn-block" id="calc-form-sub" type="submit"
+                              value="Получить бесплатный расчет" />
+                          </div>
+                        </form>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -728,178 +975,287 @@
             </div>
           </div>
         </div>
+        <!-- end s-calc-->
       </div>
-      <!-- end s-calc-->
     </div>
-  </div>
-  <script>
-    $('html').on('click', '.close-z', function () {
-      $(".modal").modal("hide");
-    })
+    <script>
+      $('html').on('click', '.close-z', function () {
+        $(".modal").modal("hide");
+      })
 
-    $('html').on('click', '.close-zz', function () {
-      $(".modal").modal("hide");
-    })
-  </script>
+      $('html').on('click', '.close-zz', function () {
+        $(".modal").modal("hide");
+      })
+    </script>
+    <div id="wprice-popup-mask" class="popup-mask"></div>
+    <div class="request-form-window" id="wprice-form-window" style="height: 230px;display: none;">
+      <a href="#" class="close" title="Закрыть" id="close-wprice-form-window"></a>
+      <div id="wprice-form-container" class="request-form-container">
+        <form id="wprice-form" action="/price/form/submit" method="post">
+          <div style="display:none"><input type="hidden" value="1215f997376e4ca737374a564b03cdbbb998a46a"
+              name="CSRF_TOKEN_FRONTEND" /></div>
+          <div class='legend'>Узнать цену</div>
+          <div class="row">
+            <input maxlength="50" placeholder="Ваше имя" name="app_modules_price_models_Form[name]"
+              id="app_modules_price_models_Form_name" type="text" />
+            <div class="errorMessage" id="app_modules_price_models_Form_name_em_" style="display:none"></div>
+          </div>
 
-  <script>
-      (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-          (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-          m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-55465672-1', 'auto'); ga('send', 'pageview');
-  </script>
+          <!-- <div class="row" style="margin-bottom: 9px;">
+       <input maxlength="100" placeholder="E-mail" name="app_modules_price_models_Form[email]" id="app_modules_price_models_Form_email" type="text" />			<div class="errorMessage" id="app_modules_price_models_Form_email_em_" style="display:none"></div>		</div> -->
+
+          <div class="row" style="margin-bottom: 13px;">
+            <input maxlength="50" placeholder="Номер телефона" name="app_modules_price_models_Form[phone]"
+              id="app_modules_price_models_Form_phone" type="text" />
+            <div class="errorMessage" id="app_modules_price_models_Form_phone_em_" style="display:none"></div>
+          </div>
 
 
-  <script>
-    function getCookie(name) {
-      var matches = document.cookie.match(new RegExp("(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"));
-      return matches ? decodeURIComponent(matches[1]) : undefined;
-    }
-    function setCookie(name, value, options) {
-      options = options || {};
-      var expires = options.expires;
-      if (typeof expires == "number" && expires) { var d = new Date(); d.setTime(d.getTime() + expires * 1000); expires = options.expires = d; }
-      if (expires && expires.toUTCString) { options.expires = expires.toUTCString(); }
-      value = encodeURIComponent(value); var updatedCookie = name + "=" + value;
-      for (var propName in options) {
-        updatedCookie += "; " + propName;
-        var propValue = options[propName];
-        if (propValue !== true) {
-          updatedCookie += "=" + propValue;
+          <input value="palazo.ru/catalog" name="app_modules_price_models_Form[href]"
+            id="app_modules_price_models_Form_href" type="hidden" />
+          <!-- 
+     <div class="row captcha">
+       <div style="float: left;"><img title="Нажмите на картинку, чтобы обновить код" id="yw3" src="/base/base/captcha/v/5d4fd7036defe" alt="" /></div>
+       <p>Введите символы, изображённые на картинке. Нажмите на картинку, чтобы обновить код.</p>
+       <input placeholder="Код с картинки" name="app_modules_price_models_Form[verifyCode]" id="app_modules_price_models_Form_verifyCode" type="text" />			<div class="errorMessage" id="app_modules_price_models_Form_verifyCode_em_" style="display:none"></div>		</div> -->
+
+          <p style="margin: 0px 35px 0px 35px; font-family: arial; color: rgb(189, 189, 189);">*Вся предоставленная
+            информация конфиденциальна и не передается третьим лицам</p>
+
+          <div class="row buttons">
+            <input class="btn" type="submit" name="yt0" value="Запросить цену" id="yt0" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+          i['GoogleAnalyticsObject'] = r;
+          i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+          }, i[r].l = 1 * new Date();
+          a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+          a.async = 1;
+          a.src = g;
+          m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-55465672-1', 'auto'); ga('send', 'pageview');
+    </script>
+
+
+    <script>
+      function getCookie(name) {
+        var matches = document.cookie.match(new RegExp("(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"));
+        return matches ? decodeURIComponent(matches[1]) : undefined;
+      }
+      function setCookie(name, value, options) {
+        options = options || {};
+        var expires = options.expires;
+        if (typeof expires == "number" && expires) { var d = new Date(); d.setTime(d.getTime() + expires * 1000); expires = options.expires = d; }
+        if (expires && expires.toUTCString) { options.expires = expires.toUTCString(); }
+        value = encodeURIComponent(value); var updatedCookie = name + "=" + value;
+        for (var propName in options) {
+          updatedCookie += "; " + propName;
+          var propValue = options[propName];
+          if (propValue !== true) {
+            updatedCookie += "=" + propValue;
+          }
+        } document.cookie = updatedCookie;
+      }
+    </script>
+
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function (m, e, t, r, i, k, a) {
+        m[i] = m[i] || function () {
+          (m[i].a = m[i].a || []).push(arguments)
+        };
+        m[i].l = 1 * new Date();
+        k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+      })
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+      ym(26679231, "init", {
+        id: 26679231,
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true
+      });
+    </script>
+    <noscript>
+      <div><img src="https://mc.yandex.ru/watch/26679231" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
+    <script src="https://cdn.envybox.io/widget/cbk.js?wcb_code=525b83f89d06e6ebce4d0a5e6680d8f6" charset="UTF-8"
+      async></script>
+    <script>
+      $("body").on("click", "#wprice-form input[type='submit']", function () {
+        if (typeof WBK !== 'undefined') {
+          var name = $("#app_modules_price_models_Form_name").val(),
+            phone = $("#app_modules_price_models_Form_phone").val(),
+            shipment = "palazo.ru | " + $("#insideLeft h1").text();
+          if (phone !== '' && name !== '') {
+            WBK.sendCrmLead(2326, {
+              'name': name, 'phone': phone, 'comment': shipment,
+              'inbox_type_id': 14317
+            });
+          }
         }
-      } document.cookie = updatedCookie;
-    }
-  </script>
+      });
 
+    </script>
+    <script>
+      $('.verh_kn').parent().css({ 'background': 'transparent', 'padding': '20px' })
+    </script>
 
-  <!-- Yandex.Metrika counter -->
-  <script type="text/javascript">
-    (function (m, e, t, r, i, k, a) {
-      m[i] = m[i] || function () {
-        (m[i].a = m[i].a || []).push(arguments)
-      };
-      m[i].l = 1 * new Date();
-      k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
-    })
-      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    <script>
+      $(window).on("scroll", function () {
+        if ($(window).scrollTop() > 100) {
+          $('.polosa-top').addClass('p-show');
+          $('.fix_logo').css('display', 'block');
+        } else {
+          $('.polosa-top').removeClass('p-show');
+          $('.fix_logo').css('display', 'none');
+        }
 
-    ym(26679231, "init", {
-      id: 26679231,
-      clickmap: true,
-      trackLinks: true,
-      accurateTrackBounce: true,
-      webvisor: true
-    });
-  </script>
-  <noscript>
-    <div><img src="https://mc.yandex.ru/watch/26679231" style="position:absolute; left:-9999px;" alt="" /></div>
-  </noscript>
-  <!-- /Yandex.Metrika counter -->
+      });
 
-  <link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
-  <script src="https://cdn.envybox.io/widget/cbk.js?wcb_code=525b83f89d06e6ebce4d0a5e6680d8f6" charset="UTF-8"
-    async></script>
-  <script>
-    $("body").on("click", "#wprice-form input[type='submit']", function () {
-      if (typeof WBK !== 'undefined') {
-        var name = $("#app_modules_price_models_Form_name").val(),
-          phone = $("#app_modules_price_models_Form_phone").val(),
-          shipment = "palazo.ru | " + $("#insideLeft h1").text();
-        if (phone !== '' && name !== '') {
-          WBK.sendCrmLead(2326, {
-            'name': name, 'phone': phone, 'comment': shipment,
-            'inbox_type_id': 14317
+      $('body').on('click', '.close-zz', function () {
+        $('.modal').hide();
+        $('.modal-backdrop').hide();
+        $('body').removeClass('modal-open')
+      })
+
+      jQuery("body").on("focusout", '#aics_name', function () {
+        var i = 0;
+        i = jQuery(this).siblings(".type-mail-check")
+        i = i.length
+        //i =jQuery(".type-mail-check").length;
+        if (i == 0) {
+          jQuery(this).after('<input class="type-mail-check" type="hidden" name="ats1195" value="1" />');
+          i = i + 1;
+        }
+      });
+
+      jQuery("body").on("focusout", '#namey', function () {
+        var i = 0;
+        i = jQuery(this).siblings(".type-mail-check")
+        i = i.length
+        //i =jQuery(".type-mail-check").length;
+        if (i == 0) {
+          jQuery(this).after('<input class="type-mail-check" type="hidden" name="ats1195" value="1" />');
+          i = i + 1;
+        }
+      });
+
+      jQuery("body").on("focusout", '#name', function () {
+        var i = 0, a = 0;
+        i = jQuery(this).siblings(".type-mail-check")
+        i = i.length
+        // i =jQuery(".type-mail-check").length;
+        if (!i) {
+          jQuery(this).after('<input class="type-mail-check" type="hidden" name="ats1195" value="1" />');
+          i = i + 1;
+        }
+      });
+      jQuery("body").on("focusout", '#name1', function () {
+        var i = 0, a = 0;
+        i = jQuery(this).siblings(".type-mail-check")
+        i = i.length
+        // i =jQuery(".type-mail-check").length;
+        if (!i) {
+          jQuery(this).after('<input class="type-mail-check" type="hidden" name="ats1195" value="1" />');
+          i = i + 1;
+        }
+      });
+      jQuery("body").on("focusout", '#name-o', function () {
+        var i = 0, a = 0;
+        i = jQuery(this).siblings(".type-mail-check")
+        i = i.length
+        // i =jQuery(".type-mail-check").length;
+        if (!i) {
+          jQuery(this).after('<input class="type-mail-check" type="hidden" name="ats1195" value="1" />');
+          i = i + 1;
+        }
+      });
+
+    </script>
+
+    <script>
+      /*<![CDATA[*/
+      jQuery(function ($) {
+
+        jQuery(document).on('click', '#yw3', function () {
+          jQuery.ajax({
+            url: "\/base\/base\/captcha\/refresh\/1",
+            dataType: 'json',
+            cache: false,
+            success: function (data) {
+              jQuery('#yw3').attr('src', data['url']);
+              jQuery('body').data('/base/base/captcha.hash', [data['hash1'], data['hash2']]);
+            }
           });
-        }
-      }
-    });
+          return false;
+        });
 
-  </script>
-  <script>
-    $('.verh_kn').parent().css({ 'background': 'transparent', 'padding': '20px' })
-  </script>
+        jQuery('body').on('click', '#yt0', function () { jQuery.ajax({ 'dataType': 'json', 'success': function (data) { alert(data.message); if (data.status == 1) { document.getElementById("wprice-form").reset(); $("#close-wprice-form-window").click(); yaCounter26679231.reachGoal("getprice"); } }, 'type': 'POST', 'url': '/price/form/submit', 'cache': false, 'data': jQuery(this).parents("form").serialize() }); return false; });
+        jQuery('#wprice-form').yiiactiveform({
+          'attributes': [{
+            'id': 'app_modules_price_models_Form_name', 'inputID': 'app_modules_price_models_Form_name', 'errorID': 'app_modules_price_models_Form_name_em_', 'model': 'app\\modules\\price\\models\\Form', 'name': 'name', 'enableAjaxValidation': false, 'clientValidation': function (value, messages, attribute) {
 
-  <script>
-    $(window).on("scroll", function () {
-      if ($(window).scrollTop() > 100) {
-        $('.polosa-top').addClass('p-show');
-        $('.fix_logo').css('display', 'block');
-      } else {
-        $('.polosa-top').removeClass('p-show');
-        $('.fix_logo').css('display', 'none');
-      }
+              if (jQuery.trim(value) == '') {
+                messages.push("\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u0432\u0430\u0448\u0435 \u0438\u043c\u044f.");
+              }
 
-    });
 
-    $('body').on('click', '.close-zz', function () {
-      $('.modal').hide();
-      $('.modal-backdrop').hide();
-      $('body').removeClass('modal-open')
-    })
+              if (jQuery.trim(value) != '') {
 
-    jQuery("body").on("focusout", '#aics_name', function () {
-      var i = 0;
-      i = jQuery(this).siblings(".type-mail-check")
-      i = i.length
-      //i =jQuery(".type-mail-check").length;
-      if (i == 0) {
-        jQuery(this).after('<input class="type-mail-check" type="hidden" name="ats1195" value="1" />');
-        i = i + 1;
-      }
-    });
+                if (value.length > 100) {
+                  messages.push("\u0418\u043c\u044f \u043d\u0435 \u0434\u043e\u043b\u0436\u043d\u043e \u043f\u0440\u0435\u0432\u044b\u0448\u0430\u0442\u044c 100 \u0441\u0438\u043c\u0432\u043e\u043b\u043e\u0432.");
+                }
 
-    jQuery("body").on("focusout", '#namey', function () {
-      var i = 0;
-      i = jQuery(this).siblings(".type-mail-check")
-      i = i.length
-      //i =jQuery(".type-mail-check").length;
-      if (i == 0) {
-        jQuery(this).after('<input class="type-mail-check" type="hidden" name="ats1195" value="1" />');
-        i = i + 1;
-      }
-    });
+              }
 
-    jQuery("body").on("focusout", '#name', function () {
-      var i = 0, a = 0;
-      i = jQuery(this).siblings(".type-mail-check")
-      i = i.length
-      // i =jQuery(".type-mail-check").length;
-      if (!i) {
-        jQuery(this).after('<input class="type-mail-check" type="hidden" name="ats1195" value="1" />');
-        i = i + 1;
-      }
-    });
-    jQuery("body").on("focusout", '#name1', function () {
-      var i = 0, a = 0;
-      i = jQuery(this).siblings(".type-mail-check")
-      i = i.length
-      // i =jQuery(".type-mail-check").length;
-      if (!i) {
-        jQuery(this).after('<input class="type-mail-check" type="hidden" name="ats1195" value="1" />');
-        i = i + 1;
-      }
-    });
-    jQuery("body").on("focusout", '#name-o', function () {
-      var i = 0, a = 0;
-      i = jQuery(this).siblings(".type-mail-check")
-      i = i.length
-      // i =jQuery(".type-mail-check").length;
-      if (!i) {
-        jQuery(this).after('<input class="type-mail-check" type="hidden" name="ats1195" value="1" />');
-        i = i + 1;
-      }
-    });
+            }
+          }, { 'id': 'app_modules_price_models_Form_email', 'inputID': 'app_modules_price_models_Form_email', 'errorID': 'app_modules_price_models_Form_email_em_', 'model': 'app\\modules\\price\\models\\Form', 'name': 'email', 'enableAjaxValidation': false }, {
+            'id': 'app_modules_price_models_Form_phone', 'inputID': 'app_modules_price_models_Form_phone', 'errorID': 'app_modules_price_models_Form_phone_em_', 'model': 'app\\modules\\price\\models\\Form', 'name': 'phone', 'enableAjaxValidation': false, 'clientValidation': function (value, messages, attribute) {
 
-  </script>
+              if (jQuery.trim(value) == '') {
+                messages.push("\u0423\u043a\u0430\u0436\u0438\u0442\u0435 \u043d\u043e\u043c\u0435\u0440 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0430.");
+              }
 
+
+              if (jQuery.trim(value) != '') {
+
+                if (value.length > 50) {
+                  messages.push("\u0421\u043b\u0438\u0448\u043a\u043e\u043c \u0434\u043b\u0438\u043d\u043d\u043e\u0435 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u044f (\u043c\u0430\u043a\u0441. 50 \u0441\u0438\u043c\u0432\u043e\u043b\u043e\u0432).");
+                }
+
+              }
+
+            }
+          }, { 'id': 'app_modules_price_models_Form_verifyCode', 'inputID': 'app_modules_price_models_Form_verifyCode', 'errorID': 'app_modules_price_models_Form_verifyCode_em_', 'model': 'app\\modules\\price\\models\\Form', 'name': 'verifyCode', 'enableAjaxValidation': false }]
+        });
+        $('#wprice').click(function () {
+          $('#wprice-form-window').fadeIn();
+          $('#wprice-popup-mask').fadeIn();
+          return false;
+        });
+        $('.popup-mask, #close-wprice-form-window').click(function (e) {
+          $('#wprice-form-window').fadeOut();
+          $('#wprice-popup-mask').fadeOut();
+          return false;
+        });
+      });
+ /*]]>*/
+    </script>
 </body>
 
 </html>
