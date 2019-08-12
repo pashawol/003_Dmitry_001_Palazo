@@ -42,7 +42,7 @@
 }
 @media (min-width: 1060px){
   .how-work__item{
-    flex: 0 0 1;
+    flex: 0 0 15%;
     max-width: 150px;
     min-width: 115px;
   }
@@ -117,6 +117,7 @@
   margin: 0 10px;
   text-transform: uppercase;
   width: auto;
+  font-family: Open Sans;
 }
 
 .contacts-form-block{
@@ -415,3 +416,17 @@
   width: 100%;
 }
 
+.header__mail{
+  display: block;
+  text-align: right;
+  margin-right: 53px;
+  color: #973737;
+  font-size: 15px;
+  line-height: 110%;
+  margin-bottom: 4px;
+}
+@media (max-width: 440px){
+  .header__mail{
+    display: none;
+  }
+}
