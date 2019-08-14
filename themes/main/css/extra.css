@@ -460,6 +460,23 @@
   line-height: 34px;
   color: #fff;
 }
-#work-order .flex-47 .btn2{
-  margin-left: 22px;
+@media (min-width: 568px){
+  .design-form .flex-47{
+    justify-content: space-between;
+    align-items: unset;
+  }
+  .design-form .flex-47 input{
+    margin-left: 20px;
+  }
+  .design-form .chs7{
+    margin-top: -10px;
+  }
+  #work-order .flex-47 .btn2{
+    margin-right: 77px;
+  }
+}
+@media screen and (max-width: 690px){
+  #work-order .news-full__link, #work-order .promo-fill-block{
+    display: none;
+  }
 }
