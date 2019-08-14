@@ -187,11 +187,13 @@
 }
 .contacts-check-wrapper{
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 22px;
+  margin-top: 20px;
 }
 @media (min-width: 930px) {
   .contacts-check-wrapper{
-    margin-left: 70px;
+    margin-top: 0;
+    margin-left: 72px;
   }
 }
 .contacts-form-check{
@@ -457,4 +459,7 @@
   font-size: 25px;
   line-height: 34px;
   color: #fff;
+}
+#work-order .flex-47 .btn2{
+  margin-left: 22px;
 }
