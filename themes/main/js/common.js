@@ -120,6 +120,39 @@
          margin:20,
          nav:true, 
          autoWidth:true,
-     })
+		 })
+		 // карусель
+   $('.owl-carousel').owlCarousel({
+        
+        //  margin:20,
+				 nav:false, 
+				 items: 6,
+				 loop:false,
+				 mouseDrag:false,
+				 responsive : {
+					
+					0 : {
+						nav:true, 
+						items: 1,
+						loop:true,
+						mouseDrag:true,
+					},
+					
+					690 : {
+						nav:true, 
+						items: 4,
+						loop:true,
+						mouseDrag:true,
+					},
+					
+					970 : {
+						nav:false, 
+						items: 6,
+						loop:false,
+						mouseDrag:false,
+					}
+			},
+		 })
+
  });
  
