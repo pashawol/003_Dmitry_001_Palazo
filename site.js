@@ -303,6 +303,49 @@ e.preventDefault();
 
 });  
 
+
+$('body').on('click', '.contacts-form-btn', function(e){
+
+    if ($('#namey').val() == "")
+    {
+        //$('body').on()
+        //$('#name-o').prop('placeholder','Представьтесь, пожалуйста.');
+        $('#bthrow_error_namey').html('Представьтесь, пожалуйста.');
+        $('#namey').css('border-color','red');
+        e.preventDefault();
+    }else if ($('#maily').val() == ""  )
+    {
+        $('#bthrow_error_maily').html('Ваш e-mail, пожалуйста.');
+        $('#bthrow_error_namey').html('');
+        $('#namey').css('border-color','#999');
+        $('#maily').css('border-color','red');
+        e.preventDefault();
+    }else if ($('#telfy').val() == ""  )
+    {
+        $('#bthrow_error_telfy').html('Номер телефона, пожалуйста.');
+        $('#bthrow_error_namey').html('');
+        $('#namey').css('border-color','#999');
+        $('#telfy').css('border-color','red');
+        e.preventDefault();
+    }else if (!$('#condition1y').prop("checked") && !$('#chskg').prop("checked"))
+    {
+               $('#namey').css('border-color','#999');
+        $('#telfy').css('border-color','#999');
+    $('#bthrow_error_telfy').html('');
+    $('#bthrow_error_checky').html('<span class="soglasie" >*Вы не дали согласие на обработку персональных данных.</span>');
+    e.preventDefault();
+    }
+    else
+    {
+       $('#namey').css('border-color','#999');
+        $('#telfy').css('border-color','#999');
+        $('#bthrow_error_telfy').html('');
+        $('#bthrow_error_checky').html('');
+    }
+e.preventDefault();
+
+});  
+
 /*********** form-bespl ******************************/
 
 $('body').on('click', '.btn215', function(e){
