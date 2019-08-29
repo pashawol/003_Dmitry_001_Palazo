@@ -103,56 +103,69 @@
 
 
 
- jQuery(document).ready(function ($) {
-  	// табы  . 
-    function tabscostume(tab) {
- 		$('.' + tab + '__caption').on('click', '.' + tab + '__btn:not(.active)', function (e) {
- 			$(this)
- 				.addClass('active').siblings().removeClass('active')
- 				.closest('.' + tab).find('.' + tab + '__content').hide().removeClass('active')
- 				.eq($(this).index()).fadeIn().addClass('active');
+jQuery(document).ready(function ($) {
 
- 		});
- 	};
-   tabscostume('tabs');
-   $('.main-blocks-slider--js').owlCarousel({
-        
-         margin:20,
-         nav:true, 
-         autoWidth:true,
-		 })
-		 // карусель
-   $('.owl-carousel').owlCarousel({
-        
-        //  margin:20,
-				 nav:false, 
-				 items: 6,
-				 loop:false,
-				 mouseDrag:false,
-				 responsive : {
-					
-					0 : {
-						nav:true, 
-						items: 1,
-						loop:true,
-						mouseDrag:true,
-					},
-					
-					690 : {
-						nav:true, 
-						items: 4,
-						loop:true,
-						mouseDrag:true,
-					},
-					
-					970 : {
-						nav:false, 
-						items: 6,
-						loop:false,
-						mouseDrag:false,
-					}
+
+	$('.mob-menu .menu-item-has-children .mob-menu-toggler').click(function (e) {
+		e.preventDefault();
+		e.stopPropagation();
+		$(this).siblings('.header__submenu').slideToggle();
+		$(this).toggleClass('active');
+	});
+
+	$('.menu-item').click(function (e) {
+		e.preventDefault();
+		e.stopPropagation();
+	});
+
+	// табы  . 
+	function tabscostume(tab) {
+		$('.' + tab + '__caption').on('click', '.' + tab + '__btn:not(.active)', function (e) {
+			$(this)
+				.addClass('active').siblings().removeClass('active')
+				.closest('.' + tab).find('.' + tab + '__content').hide().removeClass('active')
+				.eq($(this).index()).fadeIn().addClass('active');
+
+		});
+	};
+	tabscostume('tabs');
+	$('.main-blocks-slider--js').owlCarousel({
+
+		margin: 20,
+		nav: true,
+		autoWidth: true,
+	})
+	// карусель
+	$('.owl-carousel').owlCarousel({
+
+		//  margin:20,
+		nav: false,
+		items: 6,
+		loop: false,
+		mouseDrag: false,
+		responsive: {
+
+			0: {
+				nav: true,
+				items: 1,
+				loop: true,
+				mouseDrag: true,
 			},
-		 })
 
- });
- 
+			690: {
+				nav: true,
+				items: 4,
+				loop: true,
+				mouseDrag: true,
+			},
+
+			970: {
+				nav: false,
+				items: 6,
+				loop: false,
+				mouseDrag: false,
+			}
+		},
+	})
+
+});
