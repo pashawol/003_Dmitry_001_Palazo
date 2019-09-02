@@ -434,11 +434,16 @@ $(window).resize(function () {
         
 $('body').on('click','.head-top__left_m', function(e){
      $('nav#top').css({'left':'0', "transition":"0.8s",'width':'100%'});
-    e.preventDefault();
-});
-
-$('body').on('click','.m-close', function(e){
-     $('nav#top').css({"left":"-375px", "transition":"1s",'width':'375px'});
+     $('body').css({'overflow':'hidden'});
+     $('.ws-quiz-container').css({'display':'none'});
+     $('nav#top').css({'overflow-y':'auto'});
+     e.preventDefault();
+    });
+    
+    $('body').on('click','.m-close', function(e){
+      $('nav#top').css({"left":"-375px", "transition":"1s",'width':'375px'});
+      $('body').css({'overflow':'visible'});
+      $('.ws-quiz-container').css({'display':'block'});
     e.preventDefault();
 });
 
