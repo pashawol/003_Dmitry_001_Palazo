@@ -487,6 +487,10 @@ color: #FFFFFF;
     margin: 20px auto;
 }
 
+#catalog .bottomText{
+    width: 100%;
+}
+
 .vcard{
 	color:#ccc;
 }

@@ -107,14 +107,14 @@ jQuery(document).ready(function ($) {
 
 
 	$('.mob-menu .menu-item-has-children .mob-menu-toggler').click(function (e) {
-		e.preventDefault();
+		 e.preventDefault();
 		e.stopPropagation();
 		$(this).siblings('.header__submenu').slideToggle();
 		$(this).toggleClass('active');
 	});
 
 	$('.menu-item').click(function (e) {
-		e.preventDefault();
+		// e.preventDefault();
 		e.stopPropagation();
 	});
 
@@ -130,14 +130,14 @@ jQuery(document).ready(function ($) {
 	};
 	tabscostume('tabs');
 	$('.main-blocks-slider--js').owlCarousel({
-
+		
 		margin: 20,
 		nav: true,
 		autoWidth: true,
 	})
 	// карусель
-	$('.owl-carousel').owlCarousel({
-
+	$('.how-work__main-block').owlCarousel({
+		dots: false,
 		//  margin:20,
 		nav: false,
 		items: 6,
@@ -151,8 +151,14 @@ jQuery(document).ready(function ($) {
 				loop: true,
 				mouseDrag: true,
 			},
+			440: {
+				nav: true,
+				items: 2,
+				loop: true,
+				mouseDrag: true,
+			},
 
-			690: {
+		 576: {
 				nav: true,
 				items: 4,
 				loop: true,

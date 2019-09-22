@@ -533,3 +533,6 @@ div.pp_pic_holder{position:fixed;}
 background: #B5B5B5;
     padding: 0 !important;
 }
+
+.fix_logo{line-height: 83px; display:none;}
+.fix_logo img{width: 104px;}

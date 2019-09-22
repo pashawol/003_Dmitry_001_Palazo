@@ -8,7 +8,7 @@
 <script src="<?php echo $this->config['_tinyMCEPath'] ?>/tiny_mce_popup.js"  ></script>
 <?php ENDIF ?>
 <?php IF (file_exists("themes/{$this->config['theme']}/init.js")): ?>
-<script src="themes/<?php echo $this->config['theme'] ?>/init.js"  ></script>
+<script src="/themes/<?php echo $this->config['theme'] ?>/init.js"  ></script>
 <?php ENDIF ?>
 <script  >
 browser.version = "<?php echo self::VERSION ?>";

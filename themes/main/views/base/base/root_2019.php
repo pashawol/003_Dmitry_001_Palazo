@@ -52,7 +52,7 @@ $ui->seo($model->page);
 <div class="separator pattern"></div>
 <!--3 root-->
 <div class="promo">
-        <a href="#" id="promo-prev"><img src="themes/main/images/rombl.png" alt=""></a>
+        <a href="#" id="promo-prev"><img src="/themes/main/images/rombl.png" alt=""></a>
         <div class="promo__list">
           <div class="promo__item">
             <img src="uploads/promo/1.png" alt="">
@@ -292,7 +292,7 @@ $ui->seo($model->page);
           <div class="col-lg-6 col-md-8 col-sm-12 community__block">
             <h3>Сертификаты</h3>
             <div class="community__wrap">
-              <a href="#" id="cert-prev"><img src="themes/main/images/rombl.png" alt="prev"></a>
+              <a href="#" id="cert-prev"><img src="/themes/main/images/rombl.png" alt="prev"></a>
                 <ul class="community__certs" data-certs="2">
                   <li data-num="1">
                     <div class="community__cert">
@@ -307,7 +307,7 @@ $ui->seo($model->page);
                     </div>
                   </li>
                 </ul>
-              <a href="#" id="cert-next"><img src="themes/main/images/rombr.png" alt="next"></a>
+              <a href="#" id="cert-next"><img src="/themes/main/images/rombr.png" alt="next"></a>
             </div>
           </div> 
         </div>
